@@ -22,6 +22,7 @@ function run(cmd, options = {}) {
             AWS_PAGER: '', // Disable the pager.
             AWS_ACCESS_KEY_ID,
             AWS_SECRET_ACCESS_KEY,
+            AWS_SESSION_TOKEN: '' // Disable session token.
         },
     });
 }
